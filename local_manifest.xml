@@ -4,8 +4,6 @@
 
         <remote name="profile"
         fetch="https://github.com/Tester9958" />
-        <remove-project name="vendor_blaze" />
-        <project path="vendor_blaze" name="vendor_blaze" remote="profile" revision="12.1"/>
 
         <!-- Sync trees -->
         <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="profile" revision="lineage-19.0-back" />
