@@ -5,6 +5,11 @@
         <remote name="profile"
         fetch="https://github.com/Tester9958" />
 
+        <remote name="ae"
+        fetch="https://github.com/LineageOS" />
+
+        <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="ae" revision="lineage-18.1"/>
+
         <!-- Sync trees -->
         <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="profile" revision="Aex-back" />
         <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="profile" revision="lineage-18.1" />
