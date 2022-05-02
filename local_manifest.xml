@@ -6,8 +6,8 @@
         fetch="https://github.com/Tester9958" /
 
         <!-- Sync trees -->
-        <project path="device/asus/X01AD" name="device_asus_X01AD-1" remote="profile" revision="Arrow-12.0" />
-        <project path="vendor/asus/X01AD" name="vendor_asus_X01AD-1" remote="profile" revision="R-latest" />
+        <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="profile" revision="Aex-back" />
+        <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="profile" revision="lineage-18.1" />
         <project path="kernel/asus/X01AD" name="kernel_asus_X01AD" remote="profile" revision="lineage-19.0" />
 
 </manifest>
