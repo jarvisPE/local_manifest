@@ -3,7 +3,7 @@
 <manifest>
 
         <remote name="profile"
-        fetch="https://github.com/Tester9958" /
+        fetch="https://github.com/Tester9958" />
 
         <!-- Sync trees -->
         <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="profile" revision="Aex-back" />
