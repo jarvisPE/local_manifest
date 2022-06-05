@@ -2,12 +2,12 @@
 
 <manifest>
 
-        <remote name="profile"
-        fetch="https://github.com/ugly-saifu" />
+        <remote name="Jam"
+        fetch="https://github.com/Shivam1143" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X01AD" name="Device-asus-X01AD" remote="profile" revision="lineage-19.0-back" />
-        <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="profile" revision="R-latest" />
-        <project path="kernel/asus/X01AD" name="kernel_asus_X01AD-2" remote="profile" revision="lineage-19.0" />
+        <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="Jam" revision="lineage-19.1 " />
+        <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="Jam" revision="lineage-18.1" />
+        <project path="kernel/asus/X01AD" name="kernel_asus_X01AD " remote="Jam" revision="lineage-19.1" />
 
 </manifest>
