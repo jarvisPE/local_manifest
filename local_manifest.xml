@@ -2,6 +2,9 @@
 
 <manifest>
 
+        <remote name="mine"
+        fetch="https://github.com/Ultron12bot" />
+
         <remote name="Jam"
         fetch="https://github.com/Shivam1143" />
         
@@ -11,7 +14,7 @@
         <project path="vendor/lawnchair" name="vendor_lawnchair" remote="profile" revision="A12" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="Jam" revision="EvoXX" />
+        <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="mine" revision="EXS" />
         <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="Jam" revision="lineage-18.1" />
         <project path="kernel/asus/X01AD" name="kernel_asus_X01AD" remote="Jam" revision="EvXX" />
 
