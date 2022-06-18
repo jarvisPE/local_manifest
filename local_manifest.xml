@@ -8,10 +8,9 @@
         <remote name="Jam"
         fetch="https://github.com/Shivam1143" />
         
-        <remote name="profile"
-        fetch="https://github.com/Tester9958" />
-
-        <project path="vendor/lawnchair" name="vendor_lawnchair" remote="profile" revision="A12" />
+       # <remote name="profile"
+       # fetch="https://github.com/Tester9958" />
+       # <project path="vendor/lawnchair" name="vendor_lawnchair" remote="profile" revision="A12" />
 
         <!-- Sync trees -->
         <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="mine" revision="EXS" />
