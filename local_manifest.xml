@@ -8,12 +8,6 @@
         <remote name="Jam"
         fetch="https://github.com/Shivam1143" />
        
-        <!-- Remove Project -->
-        <remove-project name="vendor_evolution" />
-
-        <!-- replacements -->
-        <project path="vendor/evolution" name="vendor_evolution" revision="snow" remote="mine" />
-
         <!-- Sync trees -->
         <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="mine" revision="EXS" />
         <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="Jam" revision="lineage-18.1" />
