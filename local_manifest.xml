@@ -7,9 +7,6 @@
 
         <remote name="Jam"
         fetch="https://github.com/Shivam1143" />
-       
-        <!-- remove projects -->
-        <remove-project name="vendor-evolution" />
 
         <project path="vendor/evolution" name="vendor-evolution" revision="snow" remote="mine" />
 
